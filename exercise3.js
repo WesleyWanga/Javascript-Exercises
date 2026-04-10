@@ -6,8 +6,8 @@ function getClubName() {
     return "Ethereal Club";
 }
 
-let clubResult1 = showClubName();   // This will be undefined
-let clubResult2 = getClubName();    // This will store "Ethereal Club"
+let clubResult1 = showClubName();   
+let clubResult2 = getClubName();    
 
 console.log(clubResult1); // undefined
 console.log(clubResult2); // Ethereal Club

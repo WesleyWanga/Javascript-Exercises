@@ -1,6 +1,6 @@
 function createLearnerSummary() {
 
-    // Nested functions
+    // The nested functions
     function getName() {
         return "Wesley";
     }
@@ -17,13 +17,13 @@ function createLearnerSummary() {
         return "Nairobi";
     }
 
-    // Store returned values
+    // The storing of returned values
     let name = getName();
     let age = getAge();
     let language = getLanguage();
     let city = getCity();
 
-    // Conditional check
+    // The conditional check
     let learnerType;
 
     if (age >= 18) {
@@ -32,6 +32,6 @@ function createLearnerSummary() {
         learnerType = "a young learner";
     }
 
-    // Final sentence
+    // The final sentence
     return name + " is " + learnerType + " from " + city + " who loves " + language + ".";
 }
