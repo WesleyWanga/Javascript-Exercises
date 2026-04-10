@@ -14,4 +14,3 @@ let createTravelPlan = function(name, destination, month, hasPassport) {
 let travelResult = createTravelPlan(travelerName, destination, month, hasPassport);
 
 console.log(travelResult);
-

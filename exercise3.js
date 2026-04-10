@@ -6,11 +6,11 @@ function getClubName() {
     return "Ethereal Club";
 }
 
-let clubResult1 = showClubName();   
-let clubResult2 = getClubName();    
+let firstClubResult = showClubName();   
+let secondClubResult = getClubName();    
 
-console.log(clubResult1); 
-console.log(clubResult2); 
+console.log(firstClubResult); 
+console.log(secondClubResult); 
 
 function createClubMessage(clubName, meetingDay, isOpen) {
     if (isOpen) {
