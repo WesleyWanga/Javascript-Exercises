@@ -9,8 +9,8 @@ function getClubName() {
 let clubResult1 = showClubName();   
 let clubResult2 = getClubName();    
 
-console.log(clubResult1); // undefined
-console.log(clubResult2); // Ethereal Club
+console.log(clubResult1); 
+console.log(clubResult2); 
 
 function createClubMessage(clubName, meetingDay, isOpen) {
     if (isOpen) {
